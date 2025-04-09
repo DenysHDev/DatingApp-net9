@@ -7,6 +7,9 @@ microsoft.entityframework.design (Microsoft.EntityFrameworkCore.Design) = versio
 npm install -g @angular/cli@17 (Which version?)
 ng new client
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+ng serve
+Angular Language Service extention
+brackets in setting Language Specific => Always
 
 # dotnet ef 
 
