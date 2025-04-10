@@ -10,6 +10,9 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 ng serve
 Angular Language Service extention
 brackets in setting Language Specific => Always
+npm install ngx-bootstrap@12 bootstrap font-awesome
+mkcert
+
 
 # dotnet ef 
 
@@ -28,3 +31,15 @@ follow file changes etc, instead of just running. Developer friendly.
 generate automatic git ignore file
 
 # Material Icon Theme
+
+# dotnet ef migrations add UserEntityUpdated
+dotnet ef database update
+ef migrations remove (if needed)
+
+# DRY
+
+do not repeat yourself
+
+# Validator
+
+example: [MaxLength(100)]
