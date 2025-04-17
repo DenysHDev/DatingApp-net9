@@ -13,7 +13,7 @@ public static class IdentityServiceExtentions
         services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options => 
     {
-        var tokenKey = config["TokenKey"] ?? throw new Exception("TokeyKey not found");
+        var tokenKey = config["TokenKey"] ?? throw new Exception("TokenKey not found");
         options.TokenValidationParameters = new TokenValidationParameters
         {
             ValidateIssuerSigningKey = true,
