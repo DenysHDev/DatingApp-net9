@@ -45,3 +45,5 @@ do not repeat yourself
 example: [MaxLength(100)]
 
 ## ngForm - look more into it
+
+## ngModel - look more into it
