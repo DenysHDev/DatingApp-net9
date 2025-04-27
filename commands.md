@@ -13,33 +13,35 @@ brackets in setting Language Specific => Always
 npm install ngx-bootstrap@12 bootstrap font-awesome
 mkcert
 
-
-# dotnet ef 
+## dotnet ef
 
 check commands for entity framework
 
-# dotnet ef migrations -h
+## dotnet ef migrations -h
 
 check commands for migrations
 
-# dotnet watch
+## dotnet watch
 
 follow file changes etc, instead of just running. Developer friendly.
 
-# dotnet new gitignore
+## dotnet new gitignore
 
 generate automatic git ignore file
 
-# Material Icon Theme
+## Material Icon Theme
 
-# dotnet ef migrations add UserEntityUpdated
+## dotnet ef migrations add UserEntityUpdated
+
 dotnet ef database update
 ef migrations remove (if needed)
 
-# DRY
+## DRY
 
 do not repeat yourself
 
-# Validator
+## Validator
 
 example: [MaxLength(100)]
+
+## ngForm - look more into it
